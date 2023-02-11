@@ -1,6 +1,6 @@
 {
   "name": "doix-w2ui",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "doix w2ui adapter",
   "main": "index.js",
   "files": ["/lib", "/badges"],

@@ -1,3 +1,3 @@
-module.exports = {
-	w2uiAdapter: require ('./lib/w2uiAdapter.js'),
-}
+const {plugInto} = require ('./lib/w2uiAdapter.js')
+
+module.exports = {plugInto}
