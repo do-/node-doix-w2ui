@@ -1,6 +1,6 @@
 {
   "name": "doix-w2ui",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "doix w2ui adapter",
   "main": "index.js",
   "files": ["/lib", "/badges"],
@@ -28,6 +28,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/do-/node-doix-w2ui/issues"
+  },
+  "peerDependencies": {
+    "doix-db": "^0.0.22"
   },
   "devDependencies": {
     "jest": "^29.3.1"
