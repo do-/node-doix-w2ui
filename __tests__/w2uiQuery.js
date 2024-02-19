@@ -184,7 +184,7 @@ test ('or', () => {
 			]
 		}, 
 		[['users', {filters: [['is_actual', '=', true]]}]]
-	)).toStrictEqual ([true, 'admin', 'SELECT "users"."uuid" AS "uuid","users"."label" AS "label","users"."is_actual" AS "is_actual","users"."id_role" AS "id_role" FROM "users" AS "users" WHERE "users"."is_actual" = ? AND (("users"."label" = ?))'])
+	)).toStrictEqual ([true, 'admin', 'SELECT "users"."uuid" AS "uuid","users"."label" AS "label","users"."is_actual" AS "is_actual","users"."id_role" AS "id_role" FROM "users" AS "users" WHERE "users"."is_actual" = ? AND "users"."label" = ?'])
 
 	expect (pq (
 		{
