@@ -45,9 +45,9 @@ select_users:
 ```
 
 In fact, this is the `db.model.createQuery` call, but with some additions:
-* the `limit` and `offset` options are overridden with `this.rq.limit` and `this.rq.offset` respectively;
-* the `order` list is replaced with the translated `this.rq.sort`, if any (so the `order` passed in argument acts as a default value);
-* the 1st query table `filter` option is appended with the translated `this.rq.search`.
+* the `limit` and `offset` options are overridden with `this.request.limit` and `this.request.offset` respectively;
+* the `order` list is replaced with the translated `this.request.sort`, if any (so the `order` passed in argument acts as a default value);
+* the 1st query table `filter` option is appended with the translated `this.request.search`.
 
 ## More about search filters.
 

@@ -5,9 +5,9 @@ const {w2uiQuery} = require ('../lib/w2uiAdapter.js')
 
 class Job {
 
-	constructor (model, rq) {
+	constructor (model, request) {
 	
-		this.rq = rq
+		this.request = request
 	
 		this.db = {w2uiQuery, model}
 		
